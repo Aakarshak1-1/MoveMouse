@@ -8,13 +8,9 @@
     ],
     "routes": [
       {
-        "src": "/(.*)",
+        "src": "/",
         "dest": "main.py"
       }
-    ],
-    "build": {
-      "commands": [
-        "pip install -r requirements.txt"
-      ]
-    }
+    ]
   }
+  
